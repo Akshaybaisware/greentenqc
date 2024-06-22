@@ -28,13 +28,14 @@ console.log(statecorrect , "correct");
     { name: "Incorrect Assignment", value: stateincorrrect },
   ];
 
-  const COLORS = ["green", "red"];
+  // const COLORS = ["green", "red"];
+  const COLORS = ["#0ad65c", "#c46a1b"];
 
   const columns = [
     { name: "Name", selector: (row) => row.name, sortable: true  },
     { name: "Address", selector: (row) => row.address, sortable: true },
     { name: "Annual Revenue", selector: (row) => row.annualRevenue, sortable: true },
-    { name: "Clean Code", selector: (row) => row.cleanCode, sortable: true },
+    { name: "Client Code", selector: (row) => row.cleanCode, sortable: true },
     { name: "Job Functional", selector: (row) => row.jobFunctional, sortable: true },
     { name: "Pin Code", selector: (row) => row.pinCode, sortable: true },
     { name: "User ID", selector: (row) => row.userId, sortable: true },
@@ -111,15 +112,15 @@ console.log(statecorrect , "correct");
       >
         <Center
           style={{
-            color: "teal",
-            background: "#e6e6ff",
+            color: "red",
+            background: "#0d0db9",
             display: "inline",
             padding: "5px",
             margin: "5px",
 
           }}
         >
-          Cropton Services and Enterprises
+        Greenten Services
         </Center>
           { ifnotFilledanyFrom ?
           <>
