@@ -97,7 +97,8 @@ function UserLogin() {
   ) : (
     <>
       <Box
-        bg={"lightgray"}
+       bgGradient="linear(to-r, green.500, blue.500)" // Gradient from green to blue
+       boxShadow="0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06)" // Adding box shadow
         display="flex"
         flexDirection="column"
         alignItems="center"
@@ -111,7 +112,8 @@ function UserLogin() {
             fontSize={"1.2rem"}
             fontWeight={"700"}
           >
-            Welcome back ! Log in to your account to Complete Your work
+            {/* Welcome back ! Log in to your account to Complete Your work */}
+             Greenten Services Your QC is Ready plz Visit
           </Center>
 
           <Box
@@ -133,7 +135,7 @@ function UserLogin() {
               width="40%"
               borderRadius="16px"
               color="white"
-              background="#FF00FF"
+              background="#00ff1e"
               fontSize={["0.9rem", "1.3rem"]}
               fontWeight={700}
               fontFamily='"Poppins", sans-serif'
