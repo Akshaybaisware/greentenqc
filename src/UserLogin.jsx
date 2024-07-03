@@ -19,8 +19,8 @@ function UserLogin() {
     try {
       console.log("asd");
       const user = {
-        email: username.current.value,
-        password: password.current.value,
+        email: username.current.value.trim(),
+        password: password.current.value.trim(),
       };
       const response = await axios.post(
         "https://greentenbe-production.up.railway.app/api/user/login",
